@@ -1,28 +1,18 @@
 {
-  "name" : "Sample",
-  "description" : "Sample theme for Croogo",
+  "name" : "Arch",
+  "description" : "Arch theme for Croogo",
   "screenshot" : "screenshot.png",
 
   "author" : "Author Name",
   "authorEmail" : "author@email.com",
   "authorUrl" : "http://authorswebsite.com",
 
-  "settings": {
-    "css": {
-      "container": "container",
-      "row": "row",
-      "columnFull": "col-sm-12",
-      "columnLeft": "col-sm-8",
-      "columnRight": "col-sm-4",
-      "formInput": "form-control"
-    },
-  
-    "prefixes" : {
-      "admin": {
-        "helpers": {
-          "Croogo.Croogo": { "className": "Arch" },
-        }
-      }
-    }
-  }
+  "menus" : [
+    "main",
+    "footer"
+    ],
+
+  "regions" : [
+    "right"
+    ]
 }

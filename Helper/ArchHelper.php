@@ -1,7 +1,6 @@
 <?php
 
 App::uses('AppHelper', 'View/Helper');
-App::uses('CroogoStatus', 'Croogo.Lib');
 App::uses('CroogoHelper', 'Croogo.View/Helper');
 
 /**
@@ -14,7 +13,7 @@ App::uses('CroogoHelper', 'Croogo.View/Helper');
  * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
  * @link     http://www.croogo.org
  */
-class ArchHelper extends AppHelper {
+class ArchHelper extends CroogoHelper {
 
 
 /** Generate Admin menus added by CroogoNav::add()
@@ -28,7 +27,7 @@ class ArchHelper extends AppHelper {
 			'type' => 'sidebar',
 			'children' => true,
 			'htmlAttributes' => array(
-				'class' => 'nav nav-stacked',
+				// 'class' => 'nav nav-stacked',
 			),
 		), $options);
 

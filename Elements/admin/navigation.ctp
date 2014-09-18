@@ -19,7 +19,7 @@
 
     <!-- BEGIN SIDEBAR MENU -->
     <?php
-    	echo $this->Croogo->adminMenus(CroogoNav::items(), array(
+    	echo $this->Arch->adminMenus(CroogoNav::items(), array(
     		'htmlAttributes' => array(
     		  'class' => '',
     		),
