@@ -1,0 +1,18 @@
+{
+  "name" : "ArchTheme",
+  "description" : "ArchTheme for admin -  croogo 2",
+  "screenshot" : "screenshot.png",
+
+   "author" : "Amir Moharami",
+   "authorEmail" : "a.moharami@gmail.com",
+   "authorUrl" : "http://amirmoharami.ir",
+
+  "menus" : [
+    "main",
+    "footer"
+    ],
+
+  "regions" : [
+    "right"
+    ]
+}
