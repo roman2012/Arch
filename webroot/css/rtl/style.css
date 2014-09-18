@@ -1,4 +1,46 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@font-face {
+  font-family: Yekan;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../fonts/byekan-webfont.eot");
+  src: url("../../fonts/byekan-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/byekan-webfont.woff") format("woff"), url("../../fonts/byekan-webfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: Koodak;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../fonts/BKoodakBold.eot");
+  src: url("../../fonts/BKoodakBold.eot?#iefix") format("embedded-opentype"), url("../../fonts/BKoodakBold.woff") format("woff"), url("../../fonts/BKoodakBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: Mitra;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../fonts/BMitra-Regular.eot");
+  src: url("../../fonts/BMitra-Regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/BMitra-Regular.woff") format("woff"), url("../../fonts/BMitra-Regular.ttf") format("truetype"), url("../../fonts/BMitra-Regular.svg#Mitra") format("svg");
+}
+@font-face {
+  font-family: Mitra;
+  font-weight: bold;
+  font-style: normal;
+  src: url("../../fonts/BMitra-Bold.eot");
+  src: url("../../fonts/BMitra-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/BMitra-Bold.woff") format("woff"), url("../../fonts/BMitra-Bold.ttf") format("truetype"), url("../../fonts/BMitra-Bold.svg#Mitra") format("svg");
+}
+@font-face {
+  font-family: Nassim;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../fonts/nassim-regular.eot");
+  src: url("../../fonts/nassim-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/nassim-regular.woff") format("woff"), url("../../fonts/nassim-regular.ttf") format("truetype"), url("../../fonts/nassim-regular.svg#Nassim") format("svg");
+}
+@font-face {
+  font-family: Nassim;
+  font-weight: bold;
+  font-style: normal;
+  src: url("../../fonts/nassim-bold.eot");
+  src: url("../../fonts/nassim-bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/nassim-bold.woff") format("woff"), url("../../fonts/nassim-bold.ttf") format("truetype"), url("../../fonts/nassim-bold.svg#Nassim") format("svg");
+}
 /*!
 * direction.less v0.1.0
 */
@@ -26,7 +68,7 @@ body {
   direction: rtl;
   background-color: #1b1e24;
   color: #6f7b8a;
-  font-family: 'Arial';
+  font-family: B Yekan,'Arial';
   font-size: 13px;
   padding: 0px !important;
   margin: 0px !important;
@@ -435,7 +477,7 @@ body.bottom-header .page-content .content {
 .page-sidebar {
   background-color: #1b1e24 !important;
   height: 100%;
-  font-family: 'Open Sans';
+  font-family: Yekan,'Open Sans';
 }
 .page-sidebar .outer-tab-nav-section {
   display: inline-block;
@@ -1385,7 +1427,7 @@ body.bottom-header .page-content .content {
   margin-top: 10px;
 }
 .user-info-wrapper .user-info .username {
-  font-size: 19px;
+  font-size: 23px;
 }
 .user-info-wrapper .user-info .greeting {
   font-size: 19px;

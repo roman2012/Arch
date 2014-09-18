@@ -10,7 +10,7 @@
       <div class="user-info text-center">
         <div class="username">
           آقای محسن
-          <span class="semi-bold">مریدی</span>
+          <span >مریدی</span>
         </div>
       </div>
     </div>

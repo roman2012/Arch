@@ -12,6 +12,20 @@
     "footer"
     ],
 
+
+    "settings": {
+      "css": {
+        "container": "container",
+        "row": "row",
+        "columnFull": "col-sm-12",
+        "columnLeft": "col-sm-8",
+        "columnRight": "col-sm-4",
+        "formInput": "form-control",
+        "table" :"table  table-hover general-table table-striped"
+      }
+    },
+
+
   "regions" : [
     "right"
     ]
