@@ -16,11 +16,12 @@
     </div>
     <!-- END MINI-PROFILE -->
 
+
     <!-- BEGIN SIDEBAR MENU -->
     <?php
     	echo $this->Croogo->adminMenus(CroogoNav::items(), array(
     		'htmlAttributes' => array(
-    			// 'id' => 'sidebar-menu',
+    		  'class' => '',
     		),
     	));
     ?>

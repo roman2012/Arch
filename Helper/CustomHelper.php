@@ -18,7 +18,6 @@ class CustomHelper extends Helper {
         'Layout',
     );
 
-    
 
     public function menu($menuAlias, $options = array()) {
         $_options = array(

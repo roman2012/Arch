@@ -36,10 +36,10 @@
 
 			// // <!-- BEGIN PAGE LEVEL JS -->
 			'/plugins/jquery-slider/jquery.sidr.min',
-			// '/plugins/jquery-slimscroll/jquery.slimscroll.min',
-			// '/plugins/pace/pace.min',
-			// '/plugins/jquery-numberAnimate/jquery.animateNumbers',
-			// '/plugins/jquery.cookie',
+			'/plugins/jquery-slimscroll/jquery.slimscroll.min',
+			'/plugins/pace/pace.min',
+			'/plugins/jquery-numberAnimate/jquery.animateNumbers',
+			'/plugins/jquery.cookie',
 			// // END PAGE LEVEL PLUGINS 
 
 			//  BEGIN CORE TEMPLATE JS 
@@ -54,6 +54,12 @@
 		?>
 	</head>
 	<body class="boxed-layout rtl">
+	<div class="pace  pace-inactive">
+		<div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+	  	<div class="pace-progress-inner"></div>
+		</div>
+		<div class="pace-activity"></div>
+	</div>
 	<!-- BEGIN HEADER -->
 	<div class="container">
 	  <?php echo $this->element('admin/header'); ?>
@@ -66,8 +72,10 @@
 	    <!-- BEGIN PAGE CONTAINER-->
 	    <div class="page-content">
 	      <div class="clearfix"></div>
-	        <?php echo $this->Layout->sessionFlash(); ?>
-	        <?php echo $this->fetch('content'); ?>      
+	      	<div class="content">	      		
+		        <?php echo $this->Layout->sessionFlash(); ?>
+		        <?php echo $this->fetch('content'); ?>      
+	      	</div>
 	    </div>
 	  </div>
 

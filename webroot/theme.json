@@ -1,18 +1,28 @@
 {
-  "name" : "ArchTheme",
-  "description" : "ArchTheme for admin -  croogo 2",
+  "name" : "Sample",
+  "description" : "Sample theme for Croogo",
   "screenshot" : "screenshot.png",
 
-   "author" : "Amir Moharami",
-   "authorEmail" : "a.moharami@gmail.com",
-   "authorUrl" : "http://amirmoharami.ir",
+  "author" : "Author Name",
+  "authorEmail" : "author@email.com",
+  "authorUrl" : "http://authorswebsite.com",
 
-  "menus" : [
-    "main",
-    "footer"
-    ],
-
-  "regions" : [
-    "right"
-    ]
+  "settings": {
+    "css": {
+      "container": "container",
+      "row": "row",
+      "columnFull": "col-sm-12",
+      "columnLeft": "col-sm-8",
+      "columnRight": "col-sm-4",
+      "formInput": "form-control"
+    },
+  
+    "prefixes" : {
+      "admin": {
+        "helpers": {
+          "Croogo.Croogo": { "className": "Arch" },
+        }
+      }
+    }
+  }
 }
