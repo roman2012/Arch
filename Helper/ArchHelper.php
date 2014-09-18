@@ -22,12 +22,11 @@ class ArchHelper extends CroogoHelper {
  * @param array $options
  * @return string menu html tags
  */
-	public function adminMenus($menus, $options = array(), $depth = 0) {
+	public function adminMenus($menus, $options = array(), $depth = 0) {		
 		$options = Hash::merge(array(
 			'type' => 'sidebar',
 			'children' => true,
-			'htmlAttributes' => array(
-				// 'class' => 'nav nav-stacked',
+			'htmlAttributes' => array(				
 			),
 		), $options);
 
@@ -47,7 +46,7 @@ class ArchHelper extends CroogoHelper {
 		}
 		$currentRole = $this->Role->byId($this->Layout->getRoleId());
 
-		foreach ($sorted as $menu) {
+		foreach ($sorted as $menu) {			
 			if (isset($menu['separator'])) {
 				$liOptions['class'] = 'divider';
 				$out .= $this->Html->tag('li', null, $liOptions);
@@ -71,7 +70,7 @@ class ArchHelper extends CroogoHelper {
 				$menu['htmlAttributes'] += array('icon' => $menu['icon']);
 			}
 			if ($sidebar) {
-				$title .= '<span>' . $menu['title'] . '</span>';
+				$title .= '<span class="title">' . $menu['title'] . '</span>' ;
 			} else {
 				$title .= $menu['title'];
 			}
@@ -80,13 +79,13 @@ class ArchHelper extends CroogoHelper {
 				$childClass = '';
 				if ($sidebar) {					
 					$childClass = 'sub-menu';
-					// $childClass .= ' submenu-' . Inflector::slug(strtolower($menu['title']), '-');
+					$childClass .= ' submenu-' . Inflector::slug(strtolower($menu['title']), '-');
 					if ($depth > 0) {
-						// $childClass .= ' dropdown-menu';
+						$childClass .= '<span class="arrow"></span>';
 					}
 				} else {
 					if ($depth == 0) {
-						// $childClass = 'sub-menu';
+						$childClass = '';
 					}
 				}
 				$children = $this->adminMenus($menu['children'], array(
@@ -94,8 +93,8 @@ class ArchHelper extends CroogoHelper {
 					'children' => true,
 					'htmlAttributes' => array('class' => $childClass),
 				), $depth + 1);
-
-				$menu['htmlAttributes']['class'] .= ' hasChild dropdown-close';
+				$title .=  '<span class="arrow"></span>'; ;
+				// $menu['htmlAttributes']['class'] .= ' hasChild dropdown-close';
 			}
 			$menu['htmlAttributes']['class'] .= ' sidebar-item';
 
@@ -110,7 +109,7 @@ class ArchHelper extends CroogoHelper {
 
 			if (!$sidebar && !empty($children)) {
 				if ($depth == 0) {
-					$title .= ' <b class="caret"></b>';
+					// $title .= ' <b class="caret"></b>';
 				}
 				$menu['htmlAttributes']['class'] = 'dropdown-toggle';
 				$menu['htmlAttributes']['data-toggle'] = 'dropdown';
@@ -127,7 +126,7 @@ class ArchHelper extends CroogoHelper {
 			$link = $this->Html->link($title, $menu['url'], $menu['htmlAttributes']);
 			$liOptions = array();
 			if ($sidebar && !empty($children) && $depth > 0) {
-				$liOptions['class'] = ' dropdown-submenu';
+				// $liOptions['class'] = ' dropdown-submenu';
 			}
 			if (!$sidebar && !empty($children)) {
 				if ($depth > 0) {
