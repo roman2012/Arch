@@ -21,7 +21,7 @@
         "columnLeft": "col-sm-8",
         "columnRight": "col-sm-4",
         "formInput": "form-control",
-        "table" :"table  table-hover general-table table-striped"
+        "tableClass" :"table  table-hover general-table table-striped"
       }
     },
 
