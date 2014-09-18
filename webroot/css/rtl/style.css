@@ -1610,7 +1610,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: 'Open Sans';
+  font-family: Yekan,'Open Sans';
   font-weight: 300;
   color: #505458;
 }
@@ -1643,7 +1643,7 @@ h6.block {
 }
 a {
   text-shadow: none !important;
-  color: #0d638f;
+  color: #6f7b8a;
   transition: color 0.1s linear 0s, background-color 0.1s linear 0s !important;
 }
 a.icon:hover {
@@ -2872,7 +2872,7 @@ input,
 button,
 select,
 textarea {
-  font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Yekan,"Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .uneditable-input,
 textarea,
@@ -2890,7 +2890,7 @@ input[type="url"],
 input[type="search"],
 input[type="tel"],
 input[type="color"] {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Yekan,"Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-appearance: none !important;
   color: #282323;
   outline: 0;
