@@ -1,0 +1,34 @@
+.user-info-wrapper .profile-wrapper {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  margin-top: 9px;
+  float: none;
+}
+
+.user-info-wrapper .user-info {
+  display: block;
+}
+
+
+
+.btn {
+  font: 14px/20px "tahoma", Helvetica, Arial, sans-serif;
+}
+
+
+body{  font-family: "tahoma";
+}
+
+
+.logo {
+margin: 12px 30px;
+}
+
+.form-horizontal {display: block;}
+.page-content .content {
+padding-left: 30px;
+}
