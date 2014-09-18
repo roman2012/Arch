@@ -1,4 +1,4 @@
-#ArchTheme Admin Theme For Croogo2
+#ArchTheme 
 ====
 
 #installation
