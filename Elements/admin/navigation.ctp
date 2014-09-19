@@ -9,8 +9,8 @@
       </div>
       <div class="user-info text-center">
         <div class="username">
-          آقای محسن
-          <span >مریدی</span>
+          آقای امیر
+          <span >محرمی</span>
         </div>
       </div>
     </div>
