@@ -14,6 +14,7 @@
 
 
     "settings": {
+
       "css": {
         "container": "container",
         "row": "row",
@@ -21,9 +22,16 @@
         "columnLeft": "col-sm-8",
         "columnRight": "col-sm-4",
         "formInput": "form-control",
+        "input": "dd",
         "btn"   :"btn btn-block btn-success",
         "tableClass" :"table  table-hover general-table table-striped"
-      }
+      },
+      "iconDefaults" :{
+          "classDefault" : "",
+          "largeIconClass" : "icon-large",
+          "smallIconClass" : "",
+          "classPrefix" : "fa fa-"
+        }
     },
 
 
