@@ -5035,7 +5035,7 @@ table .item-actions a:hover {
     text-decoration: none;
 }
 table .item-actions a.icon-trash, table .item-actions a.delete {
-    color: #9d261d;
+    color: #fff;
 }
 table .item-actions a.icon-trash:hover, table .item-actions a.delete:hover {
     color: #310c09;

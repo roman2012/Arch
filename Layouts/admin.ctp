@@ -36,11 +36,11 @@
 			//  // END CORE JS FRAMEWORK
 
 			// // <!-- BEGIN PAGE LEVEL JS -->
-			// '/plugins/jquery-slider/jquery.sidr.min',
-			// '/plugins/jquery-slimscroll/jquery.slimscroll.min',
-			// '/plugins/pace/pace.min',
-			// '/plugins/jquery-numberAnimate/jquery.animateNumbers',
-			// '/plugins/jquery.cookie',
+			'/plugins/jquery-slider/jquery.sidr.min',
+			'/plugins/jquery-slimscroll/jquery.slimscroll.min',
+			'/plugins/pace/pace.min',
+			'/plugins/jquery-numberAnimate/jquery.animateNumbers',
+			'/plugins/jquery.cookie',
 			// // END PAGE LEVEL PLUGINS 
 
 			//  BEGIN CORE TEMPLATE JS 
